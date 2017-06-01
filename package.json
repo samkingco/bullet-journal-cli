@@ -1,0 +1,18 @@
+{
+  "name": "bullet-journal-cli",
+  "version": "0.0.1",
+  "description": "A CLI for bullet journalling",
+  "main": "index.js",
+  "repository": "github.com/samisking/bullet-journal-cli",
+  "author": "Sam King",
+  "license": "MIT",
+  "bin": {
+    "bull": "./index.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "commander": "^2.9.0",
+    "inquirer": "^3.0.6",
+    "open": "^0.0.5"
+  }
+}
